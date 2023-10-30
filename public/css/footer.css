@@ -1,0 +1,16 @@
+footer article {
+    text-align: center;
+    padding: 30px;
+}
+footer article i{
+    color: #1259c3;
+}
+footer article h4 {
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+footer article p{
+    margin: 0px;
+    padding: 0 50px;
+}
