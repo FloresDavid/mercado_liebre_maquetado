@@ -1,36 +1,91 @@
-.home__main__banner {
+body {
+    background-color: var(--colorGrisClaro);
+}
+.home__main {
+    width: 90%;
+    margin: auto;
+}
+.home__banner {
     width: 100%;
 }
 
+.fa-truck {
+    color: var(--colorVerde);
+}
+.section--ultima_visita__article{
+    padding-bottom: 10px;
+}
 .section--ultima_visita h2 {
     font-size: 24px;
+    color: var(--colorGrisOscuro);
 }
 .section--ultima_visita__article img {
     width: 100%;
 }
+.section--ultima_visita__article__div {
+    border-top:  1px solid var(--colorGrisClaro);
+    padding: 15px;
+    background-color: white;
+}
 .section--ultima_visita__article__p--precio{
+    margin: 0;
     font-size: 18px;
 }
 .section--ultima_visita__article__p--descuento{
+    margin: 0;
     font-size: 16px;
+    color: var(--colorVerde);
 }
 .section--ultima_visita__article h3{
     font-size: 16px;
+    color: var(--colorGrisOscuro);
+    display: none;
 }
 
+.section--ofertas h2 {
+    font-size: 24px;
+    color: var(--colorGrisOscuro);
+}
+.section--ofertas__article {
+    padding-bottom: 10px;
+}
 .section--ofertas__article img {
     width: 100%;
 }
+.section--ofertas__article__div {
+    border-top:  1px solid var(--colorGrisClaro);
+    padding: 15px;
+    background-color: white;
+}
 .section--ofertas__article__p--precio{
+    margin: 0;
     font-size: 18px;
 }
 .section--ofertas__article__p--descuento{
+    margin: 0;
     font-size: 16px;
+    color: var(--colorVerde);
 }
 .section--ofertas__article h3{
     font-size: 16px;
-}
-.section--ofertas h2 {
-    font-size: 24px;
+    color: var(--colorGrisOscuro);
+    display: none;
 }
 
+@media (min-width: 768px) {
+    .section--ultima_visita__article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .section--ultima_visita__article h3{
+        display: block;
+    }
+    .section--ofertas__article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .section--ofertas__article h3{
+        display: block;
+    }
+}
+@media (min-width: 1024px) {
+    
+}

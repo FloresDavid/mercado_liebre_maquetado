@@ -6,6 +6,9 @@
     --colorGrisClaro: #EBEBEB;
     --colorVerde: #39b54a;
 }
+body {
+    margin: 0;
+}
 *{
     font-family: 'Roboto'
 }
