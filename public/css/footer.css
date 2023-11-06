@@ -3,10 +3,10 @@ footer article {
     padding: 30px;
 }
 footer article i{
-    color: #1259c3;
+    color: var(--colorCeleste);
 }
 footer article h4 {
-    color: #666;
+    color: var(--colorGrisOscuro);
     margin-top: 15px;
     margin-bottom: 0px;
 }

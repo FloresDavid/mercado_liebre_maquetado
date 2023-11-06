@@ -1,6 +1,12 @@
+.home__main__banner {
+    width: 100%;
+}
 
 .section--ultima_visita h2 {
     font-size: 24px;
+}
+.section--ultima_visita__article img {
+    width: 100%;
 }
 .section--ultima_visita__article__p--precio{
     font-size: 18px;
@@ -10,6 +16,10 @@
 }
 .section--ultima_visita__article h3{
     font-size: 16px;
+}
+
+.section--ofertas__article img {
+    width: 100%;
 }
 .section--ofertas__article__p--precio{
     font-size: 18px;
@@ -23,3 +33,4 @@
 .section--ofertas h2 {
     font-size: 24px;
 }
+
