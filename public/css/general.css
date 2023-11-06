@@ -1,3 +1,11 @@
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259C3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #EBEBEB;
+    --colorVerde: #39b54a;
+}
 *{
     font-family: 'Roboto'
 }
