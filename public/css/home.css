@@ -13,7 +13,11 @@ main section article i{
     position: absolute;
     right: 20px;
     top: -15px;
-    }
+    transition: all 2s;
+}
+main section article i:hover{
+     transform: rotate(-360deg);
+}
 .home__main {
     width: 90%;
     margin: auto;
@@ -41,8 +45,9 @@ main section article i{
     padding: 15px;
     background-color: white;
     position: relative;
+    height: 100px;
 }
-.section--ultima_visita__article__div__div {
+.section--ultima_visita__article__div--descripcion {
     display: flex;
     padding: 15px 0;
 }
@@ -57,11 +62,13 @@ main section article i{
     font-size: 16px;
     color: var(--colorVerde);
 }
-.section--ultima_visita__article h3{
+.section--ultima_visita__article h4{
     font-size: 16px;
     color: var(--colorGrisOscuro);
     font-weight: 300;
-    display: none;
+    height: 0px;
+    overflow: hidden;
+    transition: all 3s;
 }
 
 .section--ofertas h2 {
@@ -82,7 +89,7 @@ main section article i{
     background-color: white;
     position: relative;
 }
-.section--ofertas__article__div__div {
+.section--ofertas__article__div--descripcion {
     display: flex;
     padding: 15px 0;
 }
@@ -97,37 +104,47 @@ main section article i{
     font-size: 16px;
     color: var(--colorVerde);
 }
-.section--ofertas__article h3{
+.section--ofertas__article h4{
     font-size: 16px;
     color: var(--colorGrisOscuro);
     font-weight: 300;
-    display: none;
+    height: 0px;
+    overflow: hidden;
+    transition: all 3s;
 }
 
 @media (min-width: 768px) {
     .section--ultima_visita {
         display: flex;
         flex-wrap: wrap;
+        align-items: flex-start;
         justify-content: space-between;
     }
     .section--ultima_visita__article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 49%;
     }
-    .section--ultima_visita__article h3{
-        display: block;
+    .section--ultima_visita__article:hover{
+        box-shadow: 0px 0px 15px rgb(100, 100, 100);
+        transition: all 2s;;
+    }
+    .section--ultima_visita__article__div:hover h4{
+        height: 30px;
     }
     .section--ofertas {
         display: flex;
         flex-wrap: wrap;
+        align-items: flex-start;
         justify-content: space-between;
     }
     .section--ofertas__article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 49%;
     }
-    .section--ofertas__article h3{
-        display: block;
+    .section--ofertas__article:hover {
+        box-shadow: 0px 0px 15px rgb(100, 100, 100);
+        transition: all 2s;;
+    }
+    .section--ofertas__article__div:hover h4{
+        height: 30px;
     }
 .section--ofertas__article {
     padding-bottom: 10px;
