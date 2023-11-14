@@ -16,7 +16,7 @@ main section article i{
     transition: all 2s;
 }
 main section article i:hover{
-    transform: rotate(-360deg);
+     transform: rotate(-360deg);
 }
 .home__main {
     width: 90%;
