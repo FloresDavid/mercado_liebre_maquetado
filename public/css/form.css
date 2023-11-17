@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.form__label{
+    margin-bottom: 20px;
+}
+.form__box {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form__input, .form__textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+}

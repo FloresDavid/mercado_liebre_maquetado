@@ -1,0 +1,11 @@
+.box__card {
+    margin-bottom: 5%;
+}
+.register__main{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.box__card--title h3{
+    text-align: center;
+    font-size: 2rem;
+}
