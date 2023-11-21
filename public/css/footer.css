@@ -1,0 +1,38 @@
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+footer article {
+    text-align: center;
+    padding: 30px;
+}
+footer article i{
+    color: var(--colorCeleste);
+}
+footer article h4 {
+    color: var(--colorGrisOscuro);
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+footer article p{
+    margin: 0px;
+    padding: 0 50px;
+
+}
+
+@media (min-width:1024px) {
+    footer {
+    flex-direction: row;
+    justify-content: space-between;
+}
+ footer article {
+    width: 32%;
+ }
+ .footer__copyright{
+    width: 100%;
+ }
+}

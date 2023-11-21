@@ -1,0 +1,24 @@
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259C3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #EBEBEB;
+    --colorVerde: #39b54a;
+}
+body {
+    margin: 0;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+p {
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: var(--colorCeleste)
+}
